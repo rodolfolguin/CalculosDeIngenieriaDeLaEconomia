@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <details>
+            <summary role="button">CALCULO VALOR PRESENTE</summary>
+                <form>
+                    <label>Anualidad</label>
+                    <input required="" type="text"
+                        id="a1" placeholder="Ingese Anualidad" oninput="calcularvp()">
+                    <br>
+                    <label>Tasa de Interes</label>
+                    <input required="" type="text" id="ti1" placeholder="Ingese interes" oninput="calcularvp()">
+                    <br>
+                    <label>Periodos</label>
+                    <input required="" type="text"
+                        id="p1" placeholder="Ingese periodos" oninput="calcularvp()">
+                    <br>
+                    <h3 style="text-align:center;" id="res1">VALOR PRESENTE</h3>
+                </form>
+        </details>
+
+        <details>
+            <summary role="button">CALCULO ANUALIDAD</summary>
+                <form>
+                    <label>Valor presente</label>
+                    <input required="" type="text"
+                        id="vp2" placeholder="Ingese Valor Presente" oninput="calcularan()">
+                    <br>
+                    <label>Tasa de Interes</label>
+                    <input required="" type="text" id="ti2" placeholder="Ingese interes" oninput="calcularan()">
+                    <br>
+                    <label>Periodos</label>
+                    <input required="" type="text"
+                        id="p2" placeholder="Ingese periodos" oninput="calcularan()">
+                    <br>
+                    <h3 style="text-align:center;" id="res2">ANUALIDAD</h3>
+                </form>
+        </details>
+    </main>
+
+
+
+
+</body>
+
+</html>
