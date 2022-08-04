@@ -5,23 +5,24 @@
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>Calculos de economia</title>
 </head>
 
 <body>
+    <h1 style="text-align: center;">INGENIERIA DE LA ECONOMIA</h1>
     <main class="container">
         <details> <!--Calculo valor presente-->
             <summary role="button" style="text-align:center ;">CALCULO VALOR PRESENTE</summary>
                 <form>
                     <label>Anualidad</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="a1" placeholder="Ingrese Anualidad" oninput="calcularVp()">
                     <br>
                     <label>Tasa de Interes</label>
-                    <input required="" type="text" id="ti1" placeholder="Ingrese interes" oninput="calcularVp()">
+                    <input required="" type="number" id="ti1" placeholder="Ingrese interes" oninput="calcularVp()">
                     <br>
                     <label>Periodos</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="p1" placeholder="Ingrese periodos" oninput="calcularVp()">
                     <br>
                     <h3 style="text-align:center;" id="res1">VALOR PRESENTE</h3>
@@ -32,14 +33,14 @@
             <summary role="button" style="text-align:center ;">CALCULO ANUALIDAD VALOR PRESENTE</summary>
                 <form>
                     <label>Valor presente</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="vp2" placeholder="Ingrese Valor Presente" oninput="calcularAnVp()">
                     <br>
                     <label>Tasa de Interes</label>
-                    <input required="" type="text" id="ti2" placeholder="Ingrese interes" oninput="calcularAnVp()">
+                    <input required="" type="number" id="ti2" placeholder="Ingrese interes" oninput="calcularAnVp()">
                     <br>
                     <label>Periodos</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="p2" placeholder="Ingrese periodos" oninput="calcularAnVp()">
                     <br>
                     <h3 style="text-align:center;" id="res2">ANUALIDAD</h3>
@@ -50,14 +51,14 @@
             <summary role="button" style="text-align:center ;">CALCULO VALOR FUTURO</summary>
                 <form>
                     <label>Anualidad</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="a3" placeholder="Ingrese Anualidad" oninput="calcularVf()">
                     <br>
                     <label>Tasa de Interes</label>
-                    <input required="" type="text" id="ti3" placeholder="Ingrese interes" oninput="calcularVf()">
+                    <input required="" type="number" id="ti3" placeholder="Ingrese interes" oninput="calcularVf()">
                     <br>
                     <label>Periodos</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="p3" placeholder="Ingrese periodos" oninput="calcularVf()">
                     <br>
                     <h3 style="text-align:center;" id="res3">VALOR FUTURO</h3>
@@ -68,14 +69,14 @@
             <summary role="button" style="text-align:center ;">CALCULO ANUALIDAD VALOR FUTURO</summary>
                 <form>
                     <label>Valor futuro</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="vf4" placeholder="Ingrese Valor Futuro" oninput="calcularAnVf()">
                     <br>
                     <label>Tasa de Interes</label>
-                    <input required="" type="text" id="ti4" placeholder="Ingrese interes" oninput="calcularAnVf()">
+                    <input required="" type="number" id="ti4" placeholder="Ingrese interes" oninput="calcularAnVf()">
                     <br>
                     <label>Periodos</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="p4" placeholder="Ingrese periodos" oninput="calcularAnVf()">
                     <br>
                     <h3 style="text-align:center;" id="res4">ANUALIDAD</h3>
@@ -86,18 +87,18 @@
             <summary role="button" style="text-align:center ;">GRADIENTE</summary>
                 <form>
                     <label>Anualidad</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="a5" placeholder="Ingrese Anualidad" oninput="calcularG()">
                     <br>
                     <label>Tasa de Interes</label>
-                    <input required="" type="text" id="ti5" placeholder="Ingrese interes" oninput="calcularG()">
+                    <input required="" type="number" id="ti5" placeholder="Ingrese interes" oninput="calcularG()">
                     <br>
                     <label>Periodos</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="p5" placeholder="Ingrese periodos" oninput="calcularG()">
                     <br>
                     <label>Gradiente</label>
-                    <input required="" type="text"
+                    <input required="" type="number"
                         id="g5" placeholder="Ingrese gradiente" oninput="calcularG()">
                     <br>
                     
